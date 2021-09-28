@@ -1,24 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import React,{Fragment} from 'react';
+import Navbar from './components/UI/Navbar/Navbar';
+import ScrollIntoView from './components/UI/Scrolling/ScrollIntoView';
+import { BrowserRouter, Route } from 'react-router-dom';
+import { HomePage, ProductList} from './components';
+import ScrollTop from './components/UI/Scrolling/ScrollToTop';
+import Footer from './components/UI/Footer/Footer';
+import Fab from '@material-ui/core/Fab';
+import KeyboardArrowUpIcon from '@material-ui/icons/KeyboardArrowUp';
 
-function App() {
+function App(props) {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Fragment>
+    <div id="back-to-top-anchor"></div>  
+    <BrowserRouter>
+    <div>
+      <ScrollIntoView>
+     <Navbar>
+      <Route path="/" exact component={HomePage} />
+      <Route path="/products" component={ProductList} />
+      
+     </Navbar>
+     </ScrollIntoView>
+     </div>
+    </BrowserRouter>
+    <ScrollTop {...props}>
+    <Fab style={{backgroundColor: "#ec1f1f", color: "white"}} size="small" aria-label="scroll back to top">
+    <KeyboardArrowUpIcon />
+    </Fab>
+  </ScrollTop>
+  <Footer /> 
+  </Fragment>
   );
 }
 

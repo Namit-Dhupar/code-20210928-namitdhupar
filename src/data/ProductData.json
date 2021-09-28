@@ -1,0 +1,136 @@
+[
+    {
+     "ProductType": "Maruti",   
+     "Subtype": [
+         {
+             "id": 1,
+             "ItemName": "Maruti Swift",
+             "ItemImageA": "/Images/catalogues/swift.webp",          
+             "ItemFile": "/Products/swift.pdf",
+             "ItemDescription": "The price of Maruti Swift starts at Rs. 5.85 Lakh and goes upto Rs. 8.67 Lakh. Maruti Swift is offered in 9 variants - the base model of Swift is LXI and the top variant Maruti Swift ZXI Plus DT AMT which comes at a price tag of Rs. 8.67 Lakh.",
+             "isEnquired": false
+         },
+         {
+            "id": 2,
+            "ItemName": "Maruti Ertiga",
+            "ItemImageA": "/Images/catalogues/ertiga.webp",          
+            "ItemFile": "/Products/swift.pdf",
+            "ItemDescription": "The price of Maruti Ertiga starts at Rs. 7.96 Lakh and goes upto Rs. 10.69 Lakh. Maruti Ertiga is offered in 7 variants - the base model of Ertiga is LXI and the top variant Maruti Ertiga ZXI AT which comes at a price tag of Rs. 10.69 Lakh.",
+            "isEnquired": false
+        },
+        {
+            "id": 3,
+            "ItemName": "Maruti Baleno",
+            "ItemImageA": "/Images/catalogues/baleno.webp",          
+            "ItemFile": "/Products/baleno.pdf",
+            "ItemDescription": "The price of Maruti Baleno starts at Rs. 5.99 Lakh and goes upto Rs. 9.45 Lakh. Maruti Baleno is offered in 9 variants - the base model of Baleno is Sigma and the top variant Maruti Baleno Alpha CVT which comes at a price tag of Rs. 9.45 Lakh.",
+            "isEnquired": false
+        }
+     ]
+    },
+    {
+     "ProductType": "Honda",   
+     "Subtype":[
+        {
+            "id": 4,
+            "ItemName": "Honda City",
+            "ItemImageA": "/Images/catalogues/city.webp",          
+            "ItemFile": "/Products/city.pdf",
+            "ItemDescription": "The price of Honda City starts at Rs. 11.16 Lakh and goes upto Rs. 15.11 Lakh. Honda City is offered in 9 variants - the base model of City is V MT and the top variant Honda City ZX MT Diesel which comes at a price tag of Rs. 15.11 Lakh.",
+            "isEnquired": false
+        },
+        {
+            "id": 5,
+            "ItemName": "Honda Amaze",
+            "ItemImageA": "/Images/catalogues/amaze.webp",          
+            "ItemFile": "/Products/amaze.pdf",
+            "ItemDescription": "The price of Honda Amaze starts at Rs. 6.32 Lakh and goes upto Rs. 11.14 Lakh. Honda Amaze is offered in 9 variants - the base model of Amaze is E and the top variant Honda Amaze VX CVT Diesel which comes at a price tag of Rs. 11.14 Lakh.",
+            "isEnquired": false
+        },
+        {
+            "id": 6,
+            "ItemName": "Honda Jazz",
+            "ItemImageA": "/Images/catalogues/jazz.webp",          
+            "ItemFile": "/Products/jazz.pdf",
+            "ItemDescription": "The price of Honda Jazz starts at Rs. 7.65 Lakh and goes upto Rs. 9.89 Lakh. Honda Jazz is offered in 6 variants - the base model of Jazz is V and the top variant Honda Jazz ZX CVT which comes at a price tag of Rs. 9.89 Lakh.",
+            "isEnquired": false
+        }
+     ]
+    },
+    {
+     "ProductType": "Hyundai",   
+     "Subtype":[
+        {
+            "id": 7,
+            "ItemName": "Hyundai i20",
+            "ItemImageA": "/Images/catalogues/i20.webp",          
+            "ItemFile": "/Products/i20.pdf",
+            "ItemDescription": "The price of Hyundai i20 starts at Rs. 6.91 Lakh and goes upto Rs. 11.40 Lakh. Hyundai i20 is offered in 24 variants - the base model of i20 is Magna and the top variant Hyundai i20 Asta Opt Turbo DCT DT which comes at a price tag of Rs. 11.40 Lakh.",
+            "isEnquired": false
+        },
+        {
+            "id": 8,
+            "ItemName": "Hyundai Verna",
+            "ItemImageA": "/Images/catalogues/verna.webp",          
+            "ItemFile": "/Products/verna.pdf",
+            "ItemDescription": "The price of Hyundai Verna starts at Rs. 9.28 Lakh and goes upto Rs. 15.32 Lakh. Hyundai Verna is offered in 12 variants - the base model of Verna is E and the top variant Hyundai Verna SX Opt AT Diesel which comes at a price tag of Rs. 15.32 Lakh.",
+            "isEnquired": false
+        },
+        {
+            "id": 9,
+            "ItemName": "Hyundai Elantra",
+            "ItemImageA": "/Images/catalogues/elantra.webp",          
+            "ItemFile": "/Products/elantra.pdf",
+            "ItemDescription": "The price of Hyundai Elantra starts at Rs. 17.86 Lakh and goes upto Rs. 21.13 Lakh. Hyundai Elantra is offered in 5 variants - the base model of Elantra is VTVT SX and the top variant Hyundai Elantra CRDi SX Option AT which comes at a price tag of Rs. 21.13 Lakh.",
+            "isEnquired": false
+        }
+     ]
+    },
+    {
+     "ProductType": "Tata",   
+     "Subtype":[         
+        {
+            "id": 10,
+            "ItemName": "Tata Nexon",
+            "ItemImageA": "/Images/catalogues/nexon.webp",          
+            "ItemFile": "/Products/nexon.pdf",
+            "ItemDescription": "The price of Tata Nexon starts at Rs. 7.28 Lakh and goes upto Rs. 13.23 Lakh. Tata Nexon is offered in 44 variants - the base model of Nexon is XE and the top variant Tata Nexon XZA Plus (O) Dark Edition Diesel which comes at a price tag of Rs. 13.23 Lakh.",
+            "isEnquired": false
+        },
+        {
+            "id": 11,
+            "ItemName": "Tata Altroz",
+            "ItemImageA": "/Images/catalogues/altroz.webp",          
+            "ItemFile": "/Products/altroz.pdf",
+            "ItemDescription": "The price of Tata Altroz starts at Rs. 5.84 Lakh and goes upto Rs. 9.59 Lakh. Tata Altroz is offered in 20 variants - the base model of Altroz is XE and the top variant Tata Altroz XZ Plus Diesel which comes at a price tag of Rs. 9.59 Lakh.",
+            "isEnquired": false
+        },
+        {
+            "id": 12,
+            "ItemName": "Tata Tiago",
+            "ItemImageA": "/Images/catalogues/tiago.webp",          
+            "ItemFile": "/Products/tiago.pdf",
+            "ItemDescription": "The price of Tata Tiago starts at Rs. 4.99 Lakh and goes upto Rs. 7.04 Lakh. Tata Tiago is offered in 11 variants - the base model of Tiago is XE and the top variant Tata Tiago XZA Plus Dual Tone Roof AMT which comes at a price tag of Rs. 7.04 Lakh.",
+            "isEnquired": false
+        }
+     ]
+    },
+    {
+     "ProductType": "Ford",   
+     "Subtype":[
+        
+     ]
+    },
+    {
+     "ProductType": "Renault",   
+     "Subtype":[
+        
+     ]
+    },
+    {
+     "ProductType": "Skoda",   
+     "Subtype":[
+        
+     ]
+    }
+]   
