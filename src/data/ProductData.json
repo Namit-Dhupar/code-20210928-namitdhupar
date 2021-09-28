@@ -118,7 +118,30 @@
     {
      "ProductType": "Ford",   
      "Subtype":[
-        
+        {
+            "id": 13,
+            "ItemName": "Ford EcoSport",
+            "ItemImageA": "/Images/catalogues/ecosport.webp",          
+            "ItemFile": "/Products/ecosport.pdf",
+            "ItemDescription": "The price of Ford EcoSport starts at Rs. 8.19 Lakh and goes upto Rs. 11.69 Lakh. Ford EcoSport is offered in 11 variants - the base model of EcoSport is Ambiente and the top variant Ford EcoSport Sports Diesel which comes at a price tag of Rs. 11.69 Lakh.",
+            "isEnquired": false
+        },
+        {
+            "id": 14,
+            "ItemName": "Ford Figo",
+            "ItemImageA": "/Images/catalogues/figo.webp",          
+            "ItemFile": "/Products/figo.pdf",
+            "ItemDescription": "The price of Ford Figo starts at Rs. 5.82 Lakh and goes upto Rs. 8.37 Lakh. Ford Figo is offered in 7 variants - the base model of Figo is Ambiente and the top variant Ford Figo Titanium Blu Diesel which comes at a price tag of Rs. 8.37 Lakh.",
+            "isEnquired": false
+        },
+        {
+            "id": 15,
+            "ItemName": "Ford Aspire",
+            "ItemImageA": "/Images/catalogues/aspire.webp",          
+            "ItemFile": "/Products/aspire.pdf",
+            "ItemDescription": "The price of Ford Aspire starts at Rs. 7.28 Lakh and goes upto Rs. 8.73 Lakh. Ford Aspire is offered in 4 variants - the base model of Aspire is Titanium and the top variant Ford Figo Aspire Titanium Plus Diesel which comes at a price tag of Rs. 8.73 Lakh.",
+            "isEnquired": false
+        }
      ]
     },
     {
