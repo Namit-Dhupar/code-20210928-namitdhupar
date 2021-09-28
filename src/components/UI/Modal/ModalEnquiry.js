@@ -87,39 +87,10 @@ const useStyles = makeStyles((theme) => ({
       <Grid container>
           <Grid item xs={4}> 
           <p style={{marginLeft: '12px'}}><strong>{pes.ItemName}</strong></p>   
-         <img src={pes.ItemImageA} alt={index}/>
+         <img src={pes.ItemImageA} alt={index} width="200px"/>
         <Hidden smDown>
             {(pes.ItemImageB) ? <img src={pes.ItemImageB} alt={index}/> : null}
         </Hidden>    
-            </Grid>
-            <Grid item xs={4}>
-            {pes.SelectedHP ? 
-            <p style={{marginLeft: '24px'}}><strong><span style={{color: '#ec1f1f'}}>HP/kW:</span> {pes.SelectedHP}</strong></p>
-            : pes.SelectedSize ? 
-            <p style={{marginLeft: '24px'}}><strong><span style={{color: '#ec1f1f'}}>SIZE(MM):</span> {pes.SelectedSize}</strong></p>
-            : pes.SelectedFlowRate ?
-            <p style={{marginLeft: '24px'}}><strong><span style={{color: '#ec1f1f'}}>FLOW RATE(KL):</span> {pes.SelectedFlowRate}</strong></p>
-            : null
-            }
-            </Grid>
-            <Grid item xs={4}>
-            { pes.SelectedMOC ?  
-            <p style={{marginLeft: '12px'}}><strong><span style={{color: '#ec1f1f'}}>MOC:</span> {pes.SelectedMOC}</strong></p>
-            : null}
-            </Grid>
-            <Grid item xs={4}>
-            { pes.SelectedFitting ?  
-            <p style={{marginLeft: '12px'}}><strong><span style={{color: '#ec1f1f'}}>FITITING TYPE:</span> {pes.SelectedFitting}</strong></p>
-            : pes.SelectedUnion ?  
-             <p style={{marginLeft: '12px'}}><strong><span style={{color: '#ec1f1f'}}>UNION TYPE:</span> {pes.SelectedUnion}</strong></p>
-            : pes.SelectedPurpose ?  
-            <p style={{marginLeft: '12px'}}><strong><span style={{color: '#ec1f1f'}}>APPLICATION:</span> {pes.SelectedPurpose}</strong></p>
-            : null}
-            </Grid>
-            <Grid item xs={12}>
-            { pes.ItemMessage ?  
-            <p style={{marginLeft: '12px'}}><strong><span style={{color: '#ec1f1f'}}>OTHER DETAILS:</span> {pes.ItemMessage}</strong></p>
-            : null} 
             </Grid>
             </Grid>
         <CancelIcon onClick={()=>{dispatch(toggleFav(pes.id))}} className={classes.enquiryButton} />

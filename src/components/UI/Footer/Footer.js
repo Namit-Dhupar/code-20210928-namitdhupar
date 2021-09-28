@@ -39,11 +39,11 @@ const Footer = () =>{
         POPULAR BRANDS
         <Divider className={classes.divider} />
         <ul style={{listStyleType: "none"}}>
-           <li className={classes.linkStyle}><a className={classes.anchorStyle} href='/products'>Maruti</a></li>
-           <li className={classes.linkStyle}><a className={classes.anchorStyle} href='/products'>Honda</a></li>
-           <li className={classes.linkStyle}><a className={classes.anchorStyle} href='/products'>Hyundai</a></li>
-           <li className={classes.linkStyle}><a className={classes.anchorStyle} href='/products'>Ford</a></li>
-           <li className={classes.linkStyle}><a className={classes.anchorStyle} href='/products'>Kia & More</a></li>
+           <li className={classes.linkStyle}><a className={classes.anchorStyle} href='/catalogue'>Maruti</a></li>
+           <li className={classes.linkStyle}><a className={classes.anchorStyle} href='/catalogue'>Honda</a></li>
+           <li className={classes.linkStyle}><a className={classes.anchorStyle} href='/catalogue'>Hyundai</a></li>
+           <li className={classes.linkStyle}><a className={classes.anchorStyle} href='/catalogue'>Ford</a></li>
+           <li className={classes.linkStyle}><a className={classes.anchorStyle} href='/catalogue'>Kia & More</a></li>
        </ul>
         </Grid>
         <Grid item lg={4} md={12}>

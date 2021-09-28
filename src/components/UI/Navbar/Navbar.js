@@ -90,8 +90,8 @@ const PrimarySearchAppBar = (props) => {
             Home
           </Link>  
           </Button>
-          <Link to="/products" className={classes.nolink}>
-          <Button color="inherit">Products</Button>
+          <Link to="/catalogue" className={classes.nolink}>
+          <Button color="inherit">Catalogue</Button>
           </Link>
           </Grid>
           </Hidden>
@@ -125,10 +125,10 @@ const PrimarySearchAppBar = (props) => {
         </ListItem>
         </Link>
 
-        <Link onClick={handleDrawerToggle} to="/products" className={classes.nolink}>
+        <Link onClick={handleDrawerToggle} to="/catalogue" className={classes.nolink}>
         <ListItem button>
            <ListItemIcon><CardTravelIcon /></ListItemIcon>
-           <ListItemText primary="Products" />
+           <ListItemText primary="Catalogue" />
         </ListItem>
         </Link>
 

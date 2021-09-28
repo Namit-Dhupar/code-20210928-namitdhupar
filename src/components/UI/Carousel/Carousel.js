@@ -33,7 +33,7 @@ function Banner(props) {
                     {props.item.Caption}
                 </Typography>
             </Slide>
-            <Link to="/products" style={{textDecoration:"none"}}>
+            <Link to="/catalogue" style={{textDecoration:"none"}}>
             <Button variant="outlined" className="ViewButton">
                     View Now
                 </Button>

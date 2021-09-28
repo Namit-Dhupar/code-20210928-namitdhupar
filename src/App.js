@@ -17,7 +17,7 @@ function App(props) {
       <ScrollIntoView>
      <Navbar>
       <Route path="/" exact component={HomePage} />
-      <Route path="/products" component={ProductList} />
+      <Route path="/catalogue" component={ProductList} />
       
      </Navbar>
      </ScrollIntoView>
