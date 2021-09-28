@@ -176,7 +176,30 @@
     {
      "ProductType": "Skoda",   
      "Subtype":[
-        
+        {
+            "id": 19,
+            "ItemName": "Skoda Kushaq",
+            "ItemImageA": "/Images/catalogues/kushaq.webp",          
+            "ItemFile": "/Products/kushaq.pdf",
+            "ItemDescription": "The price of Skoda Kushaq starts at Rs. 10.49 Lakh and goes upto Rs. 17.59 Lakh. Skoda Kushaq is offered in 7 variants - the base model of Kushaq is 1.0 TSI Active and the top variant Skoda Kushaq 1.5 TSI Style DSG which comes at a price tag of Rs. 17.59 Lakh.",
+            "isEnquired": false
+        },
+        {
+            "id": 20,
+            "ItemName": "Skoda Rapid",
+            "ItemImageA": "/Images/catalogues/rapid.webp",          
+            "ItemFile": "/Products/rapid.pdf",
+            "ItemDescription": "The price of Skoda Rapid starts at Rs. 7.79 Lakh and goes upto Rs. 13.29 Lakh. Skoda Rapid is offered in 11 variants - the base model of Rapid is 1.0 TSI Rider and the top variant Skoda Rapid 1.0 TSI Monte Carlo AT which comes at a price tag of Rs. 13.29 Lakh.",
+            "isEnquired": false
+        },
+        {
+            "id": 21,
+            "ItemName": "Skoda Octavia",
+            "ItemImageA": "/Images/catalogues/octavia.webp",          
+            "ItemFile": "/Products/octavia.pdf",
+            "ItemDescription": "The price of Skoda Octavia starts at Rs. 25.99 Lakh and goes upto Rs. 28.99 Lakh. Skoda Octavia is offered in 2 variants - the base model of Octavia is Style and the top variant Skoda Octavia Laurin and Klement which comes at a price tag of Rs. 28.99 Lakh.",
+            "isEnquired": false
+        }
      ]
     }
 ]   
