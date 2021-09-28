@@ -147,7 +147,30 @@
     {
      "ProductType": "Renault",   
      "Subtype":[
-        
+        {
+            "id": 16,
+            "ItemName": "Renault KWID",
+            "ItemImageA": "/Images/catalogues/kwid.webp",          
+            "ItemFile": "/Products/kwid.pdf",
+            "ItemDescription": "The price of Renault KWID starts at Rs. 4.06 Lakh and goes upto Rs. 5.59 Lakh. Renault KWID is offered in 11 variants - the base model of KWID is RXE and the top variant Renault KWID Climber 1.0 AMT Opt DT which comes at a price tag of Rs. 5.59 Lakh.",
+            "isEnquired": false
+        },
+        {
+            "id": 17,
+            "ItemName": "Renault Duster",
+            "ItemImageA": "/Images/catalogues/duster.webp",          
+            "ItemFile": "/Products/duster.pdf",
+            "ItemDescription": "The price of Renault Duster starts at Rs. 9.86 Lakh and goes upto Rs. 14.25 Lakh. Renault Duster is offered in 7 variants - the base model of Duster is RXS and the top variant Renault Duster RXZ Turbo CVT which comes at a price tag of Rs. 14.25 Lakh.",
+            "isEnquired": false
+        },
+        {
+            "id": 18,
+            "ItemName": "Renault Triber",
+            "ItemImageA": "/Images/catalogues/triber.webp",          
+            "ItemFile": "/Products/triber.pdf",
+            "ItemDescription": "The price of Renault Triber starts at Rs. 5.50 Lakh and goes upto Rs. 7.95 Lakh. Renault Triber is offered in 9 variants - the base model of Triber is RXE and the top variant Renault Triber RXZ EASY-R AMT Dual Tone which comes at a price tag of Rs. 7.95 Lakh.",
+            "isEnquired": false
+        }        
      ]
     },
     {
